@@ -17,7 +17,7 @@ var request = require('request'),
 module.exports = function(login, pass, callback) {
   request(
     {
-      url: 'https://auth.selcdn.ru/',
+      url: ' https://api.selcdn.ru/auth/v1.0',
       headers: {
         'X-Auth-User': login,
         'X-Auth-Key': pass
