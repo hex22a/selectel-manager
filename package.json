@@ -1,6 +1,10 @@
 {
   "name": "selectel-manager",
   "version": "0.0.5",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test:jest -- --watch"
+  },
   "author": {
     "email": "just.a.login2@gmail.com",
     "name": "Artem"
@@ -19,5 +23,10 @@
     "url": "git://github.com/cat-corporation/selectel-manager"
   },
   "main": "index",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "jest": "^16.0.2",
+    "nock": "^9.0.0",
+    "stringstream": "^0.0.5"
+  }
 }
