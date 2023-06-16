@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "async": "~0.9.x",
-    "request": "~2.45.x"
+    "request": "~2.88.2"
   },
   "keywords": [
     "selectel",
